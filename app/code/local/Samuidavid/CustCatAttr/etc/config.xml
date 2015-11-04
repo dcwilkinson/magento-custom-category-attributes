@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Samuidavid_CustCatAttr>
+            <version>0.0.1</version>
+        </Samuidavid_CustCatAttr>
+    </modules>
+    <global>
+        <resources>
+            <custcatattr_setup>
+                <setup>
+                    <module>Samuidavid_CustCatAttr</module>
+                    <class>Mage_Catalog_Model_Resource_Setup</class>
+                </setup>
+                <connection>
+                    <use>core_setup</use>
+                </connection>
+            </custcatattr_setup>
+            <custcatattr_read>
+                <connection>
+                    <use>core_read</use>
+                </connection>
+            </custcatattr_read>
+            <custcatattr_write>
+                <connection>
+                    <use>core_write</use>
+                </connection>
+            </custcatattr_write>
+        </resources>
+    </global>
+</config>
